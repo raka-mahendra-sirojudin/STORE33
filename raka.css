@@ -1,0 +1,79 @@
+body {
+  background-color: red;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+.card {
+    width: 16rem;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    background-color: aquamarine;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 10px
+}
+h15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition:2 {
+  color: chocolate;
+  text-align: center;
+  font-size: 25px;
+}
+h3 {
+  color: blueviolet;
+}
+         .btn-grad {background-image: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding:  0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+            padding: 20px;
+          }
+         .underline-nav {
+          display: flex;
+          gap: 30px;
+         }
+         .underline-nav a {
+          position: relative;
+          color: black;
+          text-decoration: none;
+          font-size: 18px;
+          padding: 10px 0;
+          transition: .5s ease;
+         }
+         .underline-nav a:hover {
+          color: aquamarine;
+         }
+         .underline-nav a:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 3px;
+          background-color: rgb(47, 9, 214);
+          transition: width 0.3s ease;
+         }
+         .underline-nav a:hover::after {
+          width: 100%;
+         }
